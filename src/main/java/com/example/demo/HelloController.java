@@ -8,12 +8,14 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
+		System.out.println(" got called /");
 		return "Hello World!";
 	}
 
     @GetMapping("/name")
 	public String getName() {
-		return "Vinod here !!";
+		System.out.println(" got called /name");
+		return "Mohan here !!";
 	}
 
 }

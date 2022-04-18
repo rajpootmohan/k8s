@@ -18,9 +18,8 @@ spec:
         app: demo
     spec:
       containers:
-      - image: localhost:5000/testdemo
+      - image: rajpootmohan/eksdemo:0.0.2-SNAPSHOT
         name: demo
-        imagePullPolicy: Never
         resources: {}
 status: {}
 ---

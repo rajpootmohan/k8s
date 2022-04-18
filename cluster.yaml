@@ -3,14 +3,7 @@ kind: ClusterConfig
 
 metadata:
   name: demo-cluster
-  region: us-east-1
-
-vpc:
-  subnets:
-    private:
-      us-east-1c: { id: subnet-5e38d672 }
-      us-east-1d: { id: subnet-0914cc41 }
-      us-east-1b: { id: subnet-b4065fd1 }
+  region: ap-south-1
 
 nodeGroups:
   - name: ng-1-workers

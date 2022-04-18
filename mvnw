@@ -24,6 +24,8 @@
 # Required ENV vars:
 # ------------------
 #   JAVA_HOME - location of a JDK home dir
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home
+export M2_HOME=/Users/mohan/.m2
 #
 # Optional ENV vars
 # -----------------
